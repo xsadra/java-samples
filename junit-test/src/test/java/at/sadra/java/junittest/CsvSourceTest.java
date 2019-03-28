@@ -20,7 +20,7 @@ class CsvSourceTest {
             "Nana,  33",
             "Nini,   6"
     })
-    void CsvSourceTestWithTwoParameters(String name, Integer age) {
+    void csvSourceTestWithTwoParameters(String name, Integer age) {
         assertNotNull(name);
         assertNotEquals(0,age);
     }

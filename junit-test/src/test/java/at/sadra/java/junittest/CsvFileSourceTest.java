@@ -15,7 +15,7 @@ class CsvFileSourceTest {
     @DisplayName("Csv File Source test with two Parameters")
     @ParameterizedTest(name = "{0} is {1} years old")
     @CsvFileSource(resources = "/persons.csv")
-    void CsvFileSourceTestWithTwoParameters(String name, Integer age) {
+    void csvFileSourceTestWithTwoParameters(String name, Integer age) {
         assertNotNull(name);
         assertNotEquals(0, age);
     }
